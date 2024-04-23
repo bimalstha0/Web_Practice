@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form1</title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <input name="name" type="text" placeholder="Name">
+            <input name="password" type="password" placeholder="********">
+        </div>
+        <div>
+            Gender
+            <input type="radio" name="gender" value="Male"> Male
+            <input type="radio" name="gender" value="Female"> Female
+            <input type="radio" name="gender" value="Rather Not Say"> Rather Not Say  
+        </div>
+        <div>
+            <input name="country" list="countries" placeholder="Country">
+            <datalist id="countries">
+                <option value="Afganistan">
+                <option value="Bangladesh">
+                <option value="Bhutan">
+                <option value="China">
+                <option value="Maldives">
+                <option value="Nepal">
+                <option value="Sri Lanka">
+                <option value="India">
+                <option value="Others">
+            </datalist>
+        </div>
+    </form>
+</body>
+</html>
