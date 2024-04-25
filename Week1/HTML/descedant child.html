@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descendant</title>
+    <style>
+        div>ul>li {
+            color: blue;
+        }
+        ol li {
+            color: red;
+        }
+        ul>li {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <ol>
+        <li>list item one</li>
+        <li>list item two</li>
+        <li>list item three</li>
+        <li>list item four</li>
+        <ul>
+            <li>aublist item one</li>
+            <li>aublist item two</li>
+            <li>aublist item three</li>
+            <div>
+                <ul>
+                    <li>another item</li>
+                    <li>yet another item</li>
+                </ul>
+            </div>
+            
+        </ul>
+        <li>list item five</li>
+    </ol>
+</body>
+</html>
